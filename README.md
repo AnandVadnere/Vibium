@@ -5,6 +5,7 @@ A minimal synchronous browser automation demo using Vibium's "sync bridge" API. 
 ---
 
 **Note**: The framework Design is still in progress.
+
 **For Contributors:**
 I have added multiple locator paths to implement self-healing, but I am facing an issue when reading the complete object from the list and using it in vibe.find(locator). The locator path, such as ('button', { text: 'Sign In' }), doesn't need to be a string. However, I have added them to the list, and when trying to read them, the individual components (e.g., button, text, Sign In) are extracted separately.
 
